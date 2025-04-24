@@ -19,7 +19,8 @@ int command(char **args, char *line, int status);
 char *find_in_path(char *command);
 char *_getenv(const char *name);
 ssize_t _getline(char **lineptr, size_t *n);
-
+int read_input(char **line, size_t *len, int interactive);
+int fork_execve(char *cmd_path, char **args, char *line);
 
 
 
