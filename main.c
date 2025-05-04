@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * main - Entry point for the simple shell program.
+ *
+ * Return: Exit status of the last executed command.
+ */
+
 int main(void)
 {
 	size_t len = 0;
