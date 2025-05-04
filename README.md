@@ -17,7 +17,6 @@ Respond to text commands and function calling \
 + Handle the “end of file” condition `Ctrl+D`
 
 _insert examples of use here from exercises_\
-_we can even do checkbox style_
 ```
 using code block formatting
 ```
@@ -27,12 +26,13 @@ _advance tasks we haven't gotten up to_
 
 ## Installation
 **Holberton’s Sandbox -** `Ubuntu 22.04`\
+\
 Requirements:
    + Windows 10
    + Chrome 77.0.3865.120 or superior
-   + 16GB Memory\
+   + 16GB Memory
 
-Steps:\
+Steps:
 1. Clone respository using `https://github.com/JonathanCharalambous/holbertonschool-simple_shell.git`
 2. Change directories to simple_shell `cd holbertonschool-simple_shell`
 3. Compile the files and create an executabe `gcc -Wall -Werror -Wextra -pedantic *.c -o hsh`
