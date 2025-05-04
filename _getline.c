@@ -1,5 +1,13 @@
 #include "main.h"
 
+/**
+ * _getline - Custom implementation of getline to read a line from stdin.
+ * @lineptr: Pointer to the buffer storing the input.
+ * @n: Size of the buffer.
+ *
+ * Return: Number of characters read (including newline), or -1 on failure.
+ */
+
 ssize_t _getline(char **lineptr, size_t *n)
 {
 	char c, *buffer, *new_buf;
