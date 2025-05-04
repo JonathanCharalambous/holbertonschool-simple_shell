@@ -61,11 +61,11 @@ Steps:
    gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
    ```
 4. Run the simple shell using the following options:
-   + Interactive\
+   + Interactive
    ```
    ./hsh
    ``` 
-   + Non-interactive\
+   + Non-interactive
    ```
    echo "_insert command here_" | ./hsh
    ```
