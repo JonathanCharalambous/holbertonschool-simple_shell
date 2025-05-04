@@ -28,12 +28,13 @@
 .p
 $ ./hsh
 .BR
-/bin/ls
+($) /bin/ls
 .BR
-hsh main.c shell.c
+($) hsh main.c shell.c
 .BR
+($)
 .BR
-exit
+($) exit
 .BR
 $
 .P
@@ -42,6 +43,20 @@ $
 $ echo "/bin/ls" | ./hsh
 .BR
 hsh main.c shell.c test_ls_2
+.BR
+$ cat test_ls_2
+.BR
+/bin/ls
+.BR
+/bin ls
+.BR
+$ cat test_ls_2 | ./hsh
+.BR
+hsh main.c shell.c test_ls_2
+.BR
+hsh main.c shell.c test_ls_2
+.BR
+$
 
 .SH SEE ALSO
 sh  
