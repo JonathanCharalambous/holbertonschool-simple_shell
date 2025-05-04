@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * parse_line - Tokenizes a command line into arguments.
+ * @line: The input command line.
+ * @arg: Array to store tokenized arguments.
+ */
+
 void parse_line(char *line, char **arg)
 {
 	int i = 0;
