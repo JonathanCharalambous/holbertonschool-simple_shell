@@ -15,7 +15,7 @@ Respond to text commands and function calling \
 + Handle errors.
 + Handle the “end of file” condition `Ctrl+D`
 
-###Examples
+### Examples
 
 Interactive
 ```
