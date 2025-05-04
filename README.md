@@ -1,5 +1,5 @@
 # SIMPLE SHELL
-A simple UNIX command interpreter written in C programming language. 
+`simple_shell` A simple UNIX command interpreter written in C programming language. 
 
 ## Process
 ![cflowchart](https://github.com/user-attachments/assets/6b628811-2377-456f-a7b8-a854e80168e3)
