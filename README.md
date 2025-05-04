@@ -29,6 +29,7 @@ Files to supporting the `simple_shell`
 _header file_
 
 [`prompt.c`](https://github.com/JonathanCharalambous/holbertonschool-simple_shell/blob/main/prompt.c)
+
 This function prints a dollar sign and a space ("$ ") to the screen
      to show the user that the shell is ready for a command.
      It uses fflush(stdout) to make sure the prompt is shown right away.
