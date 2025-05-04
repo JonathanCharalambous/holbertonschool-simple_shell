@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * command - Handles built-in shell commands like 'exit' and 'env'.
+ * command - Handles built-in shell commands.
  * @arg: Parsed command arguments.
  * @line: Original input line (used for memory cleanup).
  * @status: Exit status of last executed command.
