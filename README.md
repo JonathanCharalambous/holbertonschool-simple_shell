@@ -49,11 +49,17 @@ Requirements:
 
 Steps:
 1. Clone respository using
-   ```https://github.com/JonathanCharalambous/holbertonschool-simple_shell.git```
+   ```
+   https://github.com/JonathanCharalambous/holbertonschool-simple_shell.git
+   ```
 2. Change directories to simple_shell
-   ```cd holbertonschool-simple_shell```
+   ```
+   cd holbertonschool-simple_shell
+   ```
 3. Compile the files and create an executabe
-   ```gcc -Wall -Werror -Wextra -pedantic *.c -o hsh```
+   ```
+   gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
+   ```
 4. Run the simple shell using the following options: \
          + Interactive `./hsh`
          + Non-interactive `echo "_insert command here_" | ./hsh`
