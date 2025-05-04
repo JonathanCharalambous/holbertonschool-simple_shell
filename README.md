@@ -24,9 +24,24 @@ using code block formatting
 ##File descriptions
 Files to supporting the `simple_shell`
 
-[main.h](https://github.com/JonathanCharalambous/holbertonschool-simple_shell/blob/main/main.h)
+`[main.h]`(https://github.com/JonathanCharalambous/holbertonschool-simple_shell/blob/main/main.h)\
 _header file_
 
+`[prompt.c]`(https://github.com/JonathanCharalambous/holbertonschool-simple_shell/blob/main/prompt.c)\
+
+`[parse_line.c]`(https://github.com/JonathanCharalambous/holbertonschool-simple_shell/blob/main/parse_line.c)\
+
+`[command.c]`(https://github.com/JonathanCharalambous/holbertonschool-simple_shell/blob/main/command.c)\
+
+`[find_in_path.c]`(https://github.com/JonathanCharalambous/holbertonschool-simple_shell/blob/main/*find_in_path.c)\
+
+`[_getenv.c]`(https://github.com/JonathanCharalambous/holbertonschool-simple_shell/blob/main/_getenv.c)\
+
+`[getline.c]`(https://github.com/JonathanCharalambous/holbertonschool-simple_shell/blob/main/_getline.c)\
+
+`[read_input.c]`(https://github.com/JonathanCharalambous/holbertonschool-simple_shell/blob/main/read_input.c)\
+
+`[fork_execve.c]`(https://github.com/JonathanCharalambous/holbertonschool-simple_shell/blob/main/fork_execve.c)\
 
 
 
