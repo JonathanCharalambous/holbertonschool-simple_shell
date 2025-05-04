@@ -62,13 +62,13 @@ Steps:
    ```
 4. Run the simple shell using the following options:
    + Interactive\
-         ```
-         ./hsh
-         ``` 
+   ```
+   ./hsh
+   ``` 
    + Non-interactive\
-         ```
-         echo "_insert command here_" | ./hsh
-         ```
+   ```
+   echo "_insert command here_" | ./hsh
+   ```
 
 ## Authors
 [Johnathan](https://github.com/JonathanCharalambous)\
