@@ -1,6 +1,5 @@
 # SIMPLE SHELL
 A simple UNIX command interpreter.\
-_short summary of a shell here_
 
 ## Process
 ![cflowchart](https://github.com/user-attachments/assets/6b628811-2377-456f-a7b8-a854e80168e3)
