@@ -2,7 +2,7 @@ NAME
     simple_shell - a simple UNIX command interpreter
 
 SYNOPSIS
-    In the case of a command, you get a formal description of how to run it and what command line options it takes.
+    simple_shell -
     ./hsh 
     [command] [option]
 
@@ -10,7 +10,7 @@ SYNOPSIS
 
 DESCRIPTION
     A textual description of the functioning of the command or function.
-
+    Exit status <- 
 
 EXAMPLES
     interactive:
@@ -24,6 +24,6 @@ BUGS
     No known bugs.
 
 AUTHORS
-Johnathan Charalambous <jonathancharalambous30@gmail.com>
-Mat Dickson <mathijs.dickson96@outlook.com>
-Marianne Endozo <marianne.endozo@gmail.com>
+    Johnathan Charalambous <jonathancharalambous30@gmail.com>
+    Mat Dickson <mathijs.dickson96@outlook.com>
+    Marianne Endozo <marianne.endozo@gmail.com>
