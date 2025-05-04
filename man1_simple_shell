@@ -1,4 +1,4 @@
-.TH simple_shell (hsh) user manual
+.TH SIMPLE_SHELL 1 "May 2025" "User Commands"
 
 .SH NAME
 .B simple_shell 
@@ -10,7 +10,7 @@
 .B ] [
 .I option
 .B ]
-.BR
+.P
 .B [
 .I command
 .B ] [
@@ -18,48 +18,61 @@
 .B ] | ./hsh
 
 .SH DESCRIPTION
-    A textual description of the functioning of the command or function.
+simple_shell is executed through the file 'hsh'. It has the exact same output and error as sh (/bin/sh) and functions as a basic shell - where the shell is able to read user input, parse it and execute the command.
+.P
+.B 'hsh' 
+can be used interactively and non-interactively. 
+.br
+When used interactively, commands can be executed using the enter key and will appear and end in a new line. A prompt is displayed again each time a command has been executed and will wait for the user to type a command. Interactive mode can be exited using the command 'exit' or 'ctrl+c'.
+.br
+When used non-interactively, commands must be piped into the executable file 'hsh'. 
+.P
+simple_shell is able to handle simple command lines with arguments as well as handle the PATH and implement the 'env' built in.
+Simple commands such as '/bin/ls' , 'echo' and 'ls' are supported.
 
-
+.SH FILES
+.I ./hsh
+.br
+executable file launching the shell
 
 .SH EXAMPLES
 .P
 .B INTERACTIVE:
 .p
 $ ./hsh
-.BR
+.br
 ($) /bin/ls
-.BR
+.br
 ($) hsh main.c shell.c
-.BR
+.br
 ($)
-.BR
+.br
 ($) exit
-.BR
+.br
 $
 .P
 .B  NON-INTERACTIVE:
-.BR
+.br
 $ echo "/bin/ls" | ./hsh
-.BR
+.br
 hsh main.c shell.c test_ls_2
-.BR
+.br
 $ cat test_ls_2
-.BR
+.br
 /bin/ls
-.BR
+.br
 /bin ls
-.BR
+.br
 $ cat test_ls_2 | ./hsh
-.BR
+.br
 hsh main.c shell.c test_ls_2
-.BR
+.br
 hsh main.c shell.c test_ls_2
-.BR
+.br
 $
 
 .SH SEE ALSO
-sh  
+sh (1) 
 
 .SH BUGS
     No known bugs.
