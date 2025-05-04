@@ -20,13 +20,12 @@ _insert examples of use here from exercises_\
 ```
 using code block formatting
 ```
-\
-##File descriptions
+
+## File descriptions
 Files to supporting the `simple_shell`\
 
-```
-[main.h](https://github.com/JonathanCharalambous/holbertonschool-simple_shell/blob/main/main.h)
-```
+[`main.h`](https://github.com/JonathanCharalambous/holbertonschool-simple_shell/blob/main/main.h)
+
 _header file_
 
 `[prompt.c](https://github.com/JonathanCharalambous/holbertonschool-simple_shell/blob/main/prompt.c)`\
