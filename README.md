@@ -20,9 +20,9 @@ _insert examples of use here from exercises_\
 ```
 using code block formatting
 ```
-
+\
 ##File descriptions
-Files to supporting the `simple_shell`
+Files to supporting the `simple_shell`\
 
 ```
 [main.h](https://github.com/JonathanCharalambous/holbertonschool-simple_shell/blob/main/main.h)
