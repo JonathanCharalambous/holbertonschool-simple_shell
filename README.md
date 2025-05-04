@@ -69,7 +69,7 @@ Simple shell 1.0 + _taking a file as a command line argument_\
    ``` 
    + Non-interactive
    ```
-   echo "_insert command here_" | ./hsh
+   echo "[command][option]" | ./hsh
    ```
 
 ## Authors
