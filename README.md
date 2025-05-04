@@ -8,6 +8,17 @@
 Respond to text commands and function calling \
 `simple_shell`
 
++ `simple_shell` uses the executable file `hsh`
++ has the exact same outpput and error as `sh (/bin/sh)`
++ can be used in both interactive and non-interactive modes
+  + interactive mode can be exited using the command `exit` or `ctrl+c`
++ handles command lines with arguments
++ displays a prompt and waits for the user to type a command
+   + commmand line always ends with a new line
++ a prompt is  displayed again each time a command has been executed
++ handles the `PATH`
++ implements the `env` built in
+
 
 
 ### Examples
@@ -103,7 +114,7 @@ Simple shell 1.0 + _taking a file as a command line argument_\
    ```
    echo "[command][option]" | ./hsh
    ```
-   use command `exit` to leave shell in interactive mode
+   use command `exit` or `ctrl+c` to leave shell in interactive mode
 
 ## Authors
 [Johnathan](https://github.com/JonathanCharalambous)\
