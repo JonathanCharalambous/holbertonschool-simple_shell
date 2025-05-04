@@ -34,6 +34,10 @@ Simple commands such as '/bin/ls' , 'echo' and 'ls' are supported.
 .I ./hsh
 .br
 executable file launching the shell
+.P
+.I ./main.h
+.br
+header file containing functions declarations to support simple_shell
 
 .SH EXAMPLES
 .P
