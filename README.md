@@ -1,5 +1,4 @@
 # SIMPLE SHELL
-`simple_shell` \
  A simple UNIX command interpreter written in C programming language. 
 
 ## Process
