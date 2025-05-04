@@ -16,6 +16,8 @@ Respond to text commands and function calling \
 + Handle the “end of file” condition `Ctrl+D`
 
 **Example**
+
+Interactive
 ```
 $ ./hsh
 ($) /bin/ls
@@ -25,6 +27,7 @@ hsh main.c shell.c
 $
 ```
 
+Non-interactive
 ```
 $ echo "/bin/ls" | ./hsh
 hsh main.c shell.c test_ls_2
