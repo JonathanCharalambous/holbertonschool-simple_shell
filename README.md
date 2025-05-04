@@ -16,7 +16,7 @@ Respond to text commands and function calling \
 + Handle the “end of file” condition `Ctrl+D`
 
 ## File descriptions
-Files to supporting the `simple_shell`
+Files supporting the `simple_shell`
 
 | File | Synopsis | Description | Return | 
 | --- | --- | --- | --- | 
