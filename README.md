@@ -27,7 +27,8 @@ Files to supporting the `simple_shell`
 | File | Synopsis | Description |
 | --- | --- | --- |
 | [`main.h`](https://github.com/JonathanCharalambous/holbertonschool-simple_shell/blob/main/main.h) | _Header file_
-| [`prompt.c`](https://github.com/JonathanCharalambous/holbertonschool-simple_shell/blob/main/prompt.c) | `void prompt(void);` | _show the shell prompt_ \
+| [`prompt.c`](https://github.com/JonathanCharalambous/holbertonschool-simple_shell/blob/main/prompt.c) | `void prompt(void);` | _show the shell prompt_
+
 This function prints a dollar sign and a space ("$ ") to the screen to show the user that the shell is ready for a command. It uses fflush(stdout) to make sure the prompt is shown right away. |
 |[`parse_line.c`](https://github.com/JonathanCharalambous/holbertonschool-simple_shell/blob/main/parse_line.c) |
 |[`command.c`](https://github.com/JonathanCharalambous/holbertonschool-simple_shell/blob/main/command.c) |
