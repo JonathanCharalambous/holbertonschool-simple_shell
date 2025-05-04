@@ -1,16 +1,29 @@
 NAME
     simple_shell - a simple UNIX command interpreter
+
 SYNOPSIS
     In the case of a command, you get a formal description of how to run it and what command line options it takes.
+    ./hsh 
+    [command] [option]
+
+    [command] [option] | ./hsh
+
 DESCRIPTION
     A textual description of the functioning of the command or function.
+
+
 EXAMPLES
-    Some examples of common usage.
-SEE ALSO
-    A list of related commands or functions.
+    interactive:
+    ./hsh
+    /bin/ls
+
+    non-interactive:
+    echo "/bin/ls" | ./hsh
+
 BUGS
     No known bugs.
-AUTHOR
-   Jonathan Charalambous. Mat Dickson. Marianne Endozo.
-COPYRIGHT
-    Specify your copyright information.
+
+AUTHORS
+Johnathan Charalambous <jonathancharalambous30@gmail.com>
+Mat Dickson <mathijs.dickson96@outlook.com>
+Marianne Endozo <marianne.endozo@gmail.com>
