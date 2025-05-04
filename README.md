@@ -15,11 +15,6 @@ Respond to text commands and function calling \
 + Handle errors.
 + Handle the “end of file” condition `Ctrl+D`
 
-_insert examples of use here from exercises_\
-```
-using code block formatting
-```
-
 ## File descriptions
 Files to supporting the `simple_shell`
 
