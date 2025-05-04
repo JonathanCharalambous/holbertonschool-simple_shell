@@ -10,7 +10,7 @@ Respond to text commands and function calling \
 
 + `simple_shell` uses the executable file `hsh`
 + has the exact same output and error as `sh (/bin/sh)`
-+ shell is able to read user input, parse it and execute the command
++ `simple_shell` is able to read user input, parse it and execute the command
 + can be used in both interactive and non-interactive modes
   + interactive mode can be exited using the command `exit` or `ctrl+c`
 + handles command lines with arguments
