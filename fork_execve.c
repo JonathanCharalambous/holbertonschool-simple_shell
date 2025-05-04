@@ -1,5 +1,14 @@
 #include "main.h"
 
+/**
+ * fork_execve - Forks and executes a command using execve.
+ * @cmd_path: Full path of the command.
+ * @args: Arguments to pass to execve.
+ * @line: Original input line (used for memory cleanup in child).
+ *
+ * Return: Exit status of the executed command, or -1 on failure.
+ */
+
 int fork_execve(char *cmd_path, char **args, char *line)
 {
 	pid_t pid = fork();
