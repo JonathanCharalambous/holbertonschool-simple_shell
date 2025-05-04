@@ -42,12 +42,12 @@ Simple shell 1.0 + _taking a file as a command line argument_\
 ## Installation
 **Holberton’s Sandbox -** `Ubuntu 22.04`\
 \
-Requirements:
+**Requirements:**
    + Windows 10
    + Chrome 77.0.3865.120 or superior
    + 16GB Memory
 
-Steps:
+**Steps:**
 1. Clone respository using
    ```
    https://github.com/JonathanCharalambous/holbertonschool-simple_shell.git
