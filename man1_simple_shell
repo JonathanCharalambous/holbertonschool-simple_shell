@@ -10,7 +10,7 @@
 .B ] [
 .I option
 .B ]
-.P
+.BR
 .B [
 .I command
 .B ] [
@@ -20,27 +20,28 @@
 .SH DESCRIPTION
     A textual description of the functioning of the command or function.
 
+
+
 .SH EXAMPLES
 .P
 .B INTERACTIVE:
-.P
+.p
 $ ./hsh
-.P
+.BR
 /bin/ls
-.P
+.BR
 hsh main.c shell.c
-.P
-.P
+.BR
+.BR
 exit
-.P
+.BR
 $
 .P
-.P
 .B  NON-INTERACTIVE:
-.P
+.BR
 $ echo "/bin/ls" | ./hsh
-.P
-hsh main.c shell.c test_ls_1
+.BR
+hsh main.c shell.c test_ls_2
 
 .SH SEE ALSO
 sh  
