@@ -22,7 +22,7 @@ using code block formatting
 ```
 
 ## Roadmap
-**Advanced  tasks**
+**Advanced  tasks**\
 Simple shell 0.1.1 _using our own `getline` function, using buffers, and `static` variables_\
 Simple shell 0.2.1 _shell that does not use `strtok`_\
 Simple shell 0.4.1 _handling arguments for built in `exit`_\
