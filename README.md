@@ -65,6 +65,7 @@ Steps:
          ```
          ./hsh
          ```
+         \
          + Non-interactive\
          ```
          echo "_insert command here_" | ./hsh
