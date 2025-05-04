@@ -22,7 +22,22 @@ using code block formatting
 ```
 
 ## Roadmap
-_advance tasks we haven't gotten up to_
+**Advanced  tasks**
+Simple shell 0.1.1 _using our own `getline` function, using buffers, and `static` variables_
+Simple shell 0.2.1 _shell that does not use `strtok`_
+Simple shell 0.4.1 _handling arguments for built in `exit`_
+Simple shell 0.4.2 _handling `ctrl+c` without quitting shell when user inputs `^C`_
+Simple shell 1.0 + _implementing `setenv` and `unsetenv`_
+Simple shell 1.0 + _implementing built in command `cd`_
+Simple shell 1.0 + _handling command separator `;`_
+Simple shell 1.0 + _handling logical operators `&&` and `||`_
+Simple shell 1.0 + _implimenting built in command `alias`_
+Simple shell 1.0 + _handling variables replacement such as `$?` and `$$`_
+Simple shell 1.0 + _handling comments (`#`)
+Simple shell 1.0 + _implimenting built in command `alias`_
+Simple shell 1.0 + _implementing built in command `help`_
+Simple shell 1.0 + _impementing built in command `history`_
+Simple shell 1.0 + _taking a file as a command line argument_
 
 ## Installation
 **Holberton’s Sandbox -** `Ubuntu 22.04`\
@@ -33,12 +48,15 @@ Requirements:
    + 16GB Memory
 
 Steps:
-1. Clone respository using `https://github.com/JonathanCharalambous/holbertonschool-simple_shell.git`
-2. Change directories to simple_shell `cd holbertonschool-simple_shell`
-3. Compile the files and create an executabe `gcc -Wall -Werror -Wextra -pedantic *.c -o hsh`
-4. Run the simple shell using the following options - \
-         Interactive `./hsh`\
-         Non-interactive `echo "_insert command here_" | ./hsh`
+1. Clone respository using
+   ```https://github.com/JonathanCharalambous/holbertonschool-simple_shell.git```
+2. Change directories to simple_shell
+   ```cd holbertonschool-simple_shell```
+3. Compile the files and create an executabe
+   ```gcc -Wall -Werror -Wextra -pedantic *.c -o hsh```
+4. Run the simple shell using the following options: \
+         + Interactive `./hsh`
+         + Non-interactive `echo "_insert command here_" | ./hsh`
 
 ## Authors
 [Johnathan](https://github.com/JonathanCharalambous)\
