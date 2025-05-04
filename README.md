@@ -99,11 +99,11 @@ Simple shell 1.0 + _taking a file as a command line argument_\
    ```
    ./hsh
    ```
-   use `exit` to leave shell
    + Non-interactive
    ```
    echo "[command][option]" | ./hsh
    ```
+   use command `exit` to leave shell in interactive mode
 
 ## Authors
 [Johnathan](https://github.com/JonathanCharalambous)\
