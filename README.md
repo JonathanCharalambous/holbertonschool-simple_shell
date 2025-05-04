@@ -15,6 +15,30 @@ Respond to text commands and function calling \
 + Handle errors.
 + Handle the “end of file” condition `Ctrl+D`
 
+**Example**
+```
+$ ./hsh
+($) /bin/ls
+hsh main.c shell.c
+($)
+($) exit
+$
+```
+
+```
+$ echo "/bin/ls" | ./hsh
+hsh main.c shell.c test_ls_2
+$
+$ cat test_ls_2
+/bin/ls
+/bin/ls
+$
+$ cat test_ls_2 | ./hsh
+hsh main.c shell.c test_ls_2
+hsh main.c shell.c test_ls_2
+$
+```
+
 ## File descriptions
 Files supporting the `simple_shell`
 
