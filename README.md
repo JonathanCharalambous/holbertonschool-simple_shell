@@ -23,10 +23,10 @@ using code block formatting
 
 ## Roadmap
 **Advanced  tasks**\
-Simple shell 0.1.1 _using our own `getline` function, using buffers, and `static` variables_\
-Simple shell 0.2.1 _shell that does not use `strtok`_\
-Simple shell 0.4.1 _handling arguments for built in `exit`_\
-Simple shell 0.4.2 _handling `ctrl+c` without quitting shell when user inputs `^C`_\
+Simple shell 0.1.1  _using our own `getline` function, using buffers, and `static` variables_\
+Simple shell 0.2.1  _shell that does not use `strtok`_\
+Simple shell 0.4.1  _handling arguments for built in `exit`_\
+Simple shell 0.4.2  _handling `ctrl+c` without quitting shell when user inputs `^C`_\
 Simple shell 1.0 + _implementing `setenv` and `unsetenv`_\
 Simple shell 1.0 + _implementing built in command `cd`_\
 Simple shell 1.0 + _handling command separator `;`_\
