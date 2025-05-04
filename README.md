@@ -24,7 +24,7 @@ using code block formatting
 ## File descriptions
 Files to supporting the `simple_shell`\
 
-[`main.h`](https://github.com/JonathanCharalambous/holbertonschool-simple_shell/blob/main/main.h)
+[```main.h```](https://github.com/JonathanCharalambous/holbertonschool-simple_shell/blob/main/main.h)
 
 _header file_
 
