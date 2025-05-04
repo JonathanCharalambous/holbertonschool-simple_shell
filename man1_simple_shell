@@ -1,29 +1,54 @@
-NAME
-    simple_shell - a simple UNIX command interpreter
+.TH simple_shell (hsh) user manual
 
-SYNOPSIS
-    simple_shell -
-    ./hsh 
-    [command] [option]
+.SH NAME
+.B simple_shell 
+- a simple UNIX command interpreter written in C
 
-    [command] [option] | ./hsh
+.SH SYNOPSIS
+.B  ./hsh [
+.I command
+.B ] [
+.I option
+.B ]
+.P
+.B [
+.I command
+.B ] [
+.I option
+.B ] | ./hsh
 
-DESCRIPTION
+.SH DESCRIPTION
     A textual description of the functioning of the command or function.
-    Exit status <- 
 
-EXAMPLES
-    interactive:
-    ./hsh
-    /bin/ls
+.SH EXAMPLES
+.P
+.B INTERACTIVE:
+.P
+$ ./hsh
+.P
+/bin/ls
+.P
+hsh main.c shell.c
+.P
+.P
+exit
+.P
+$
+.P
+.P
+.B  NON-INTERACTIVE:
+.P
+$ echo "/bin/ls" | ./hsh
+.P
+hsh main.c shell.c test_ls_1
 
-    non-interactive:
-    echo "/bin/ls" | ./hsh
+.SH SEE ALSO
+sh  
 
-BUGS
+.SH BUGS
     No known bugs.
 
-AUTHORS
+.SH AUTHORS
     Johnathan Charalambous <jonathancharalambous30@gmail.com>
     Mat Dickson <mathijs.dickson96@outlook.com>
     Marianne Endozo <marianne.endozo@gmail.com>
