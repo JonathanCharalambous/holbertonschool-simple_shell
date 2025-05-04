@@ -24,6 +24,8 @@ using code block formatting
 ## File descriptions
 Files to supporting the `simple_shell`
 
+| File |  | 
+| --- | --- |
 | [`main.h`](https://github.com/JonathanCharalambous/holbertonschool-simple_shell/blob/main/main.h) | Header file
 | [`prompt.c`](https://github.com/JonathanCharalambous/holbertonschool-simple_shell/blob/main/prompt.c) |
 |[`parse_line.c`](https://github.com/JonathanCharalambous/holbertonschool-simple_shell/blob/main/parse_line.c) |
