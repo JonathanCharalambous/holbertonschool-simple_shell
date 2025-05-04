@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+ * find_in_path - Searches for a command in the system PATH.
+ * @cmd: The command to search for.
+ *
+ * Return: Pointer to the full path if found, NULL otherwise.
+ */
+
 char *find_in_path(char *cmd)
 {
 	char *path;
