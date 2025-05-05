@@ -5,11 +5,7 @@
 - a simple UNIX command interpreter written in C
 
 .SH SYNOPSIS
-.B  ./hsh [
-.I command
-.B ] [
-.I option
-.B ]
+.B  ./hsh
 .P
 .B [
 .I command
