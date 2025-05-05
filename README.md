@@ -2,7 +2,8 @@
  A simple UNIX command interpreter written in C programming language. 
 
 ## Process
-![cflowchart](https://github.com/user-attachments/assets/6b628811-2377-456f-a7b8-a854e80168e3)
+![flowchart](https://github.com/user-attachments/assets/6cc80f74-fe73-4171-9934-8e6e6ca313e1)
+
 
 ## Usage
 Respond to text commands and function calling \
@@ -120,7 +121,7 @@ Simple shell 1.0 + _taking a file as a command line argument_\
    use command `exit` or `ctrl+c` to leave shell in interactive mode
 
 ## Authors
-[Johnathan](https://github.com/JonathanCharalambous)\
+[Jonathan](https://github.com/JonathanCharalambous)\
 [Mat](https://github.com/Mat-26-dot)\
 [Marianne](https://github.com/T0ILETR0LL)
 
