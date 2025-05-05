@@ -13,7 +13,7 @@ Respond to text commands and function calling \
 + `simple_shell` is able to read user input, parse it and execute the command
 + can be used in both interactive and non-interactive modes
   + interactive mode can be exited using the command `exit` or `ctrl+c`
-+ handles command lines with arguments
++ handles command lines with arguments and errors
 + displays a prompt and waits for the user to type a command
    + commmand line always ends with a new line
 + a prompt is  displayed again each time a command has been executed
