@@ -29,6 +29,8 @@ When used non-interactively, commands must be piped into the executable file 'hs
 .P
 simple_shell is able to handle simple command lines with arguments as well as handle the PATH and implement the 'env' built in.
 Simple commands such as '/bin/ls' , 'echo' and 'ls' are supported.
+.P
+Return: Exit status of the last executed command
 
 .SH FILES
 .I ./hsh
