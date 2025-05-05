@@ -57,7 +57,7 @@ Files supporting the `simple_shell`
 
 | File | Synopsis | Description | Return | 
 | --- | --- | --- | --- | 
-| [`main.h`](https://github.com/JonathanCharalambous/holbertonschool-simple_shell/blob/main/main.h) |  | _**Header file**_
+| [`main.h`](https://github.com/JonathanCharalambous/holbertonschool-simple_shell/blob/main/main.h) |  | _**Header file**_ <br> header file containing functions declarations to support simple_shell
 | [`prompt.c`](https://github.com/JonathanCharalambous/holbertonschool-simple_shell/blob/main/prompt.c) | `void prompt(void)` | _**Shows the shell prompt**_ <br> This function prints a dollar sign and a space ("$ ") to the screen to show the user that the shell is ready for a command. <br> It uses `fflush`(stdout) to make sure the prompt is shown right away. |  This function does not return anything (void). |
 |[`parse_line.c`](https://github.com/JonathanCharalambous/holbertonschool-simple_shell/blob/main/parse_line.c) | `void parse_line(char *line, char **arg)` | _**Splits a line into words (arguments)**_ <br> This function takes a line of text (like a command line) and splits it into separate words using `strtok()` with `DELIM` as the separator. Each word is saved in the arg array. <br> It keeps splitting until there are no more words or until it reaches the maximum number of arguments. The last element of arg is set to `NULL` to mark the end. | This function does not return anything (void). <br> The arguments are stored in the arg array.
 |[`command.c`](https://github.com/JonathanCharalambous/holbertonschool-simple_shell/blob/main/command.c) | `int command(char **arg, char *line, int status)` | _**Handles built-in shell commands**_ <br> | Returns 1 if a built-in command was executed <br> Returns 0 otherwise. |
