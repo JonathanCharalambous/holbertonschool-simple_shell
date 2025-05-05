@@ -20,6 +20,8 @@ Respond to text commands and function calling \
 + handles the `PATH`
 + implements the `env` built in
 + simple commands such as '/bin/ls' , 'echo' and 'ls' are supported
++ return is the exit status of the last executed command
++ Betty coding style is followed
 
 
 
